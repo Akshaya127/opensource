@@ -1,0 +1,6 @@
+v,c,r,x = map(int,input().split())
+
+if x <= v+c or x <= c+r or x <= v+r:
+    print("YES")
+else:
+    print("NO")
