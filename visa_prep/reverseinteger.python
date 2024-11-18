@@ -1,0 +1,8 @@
+import math
+n=int(input())
+r=str(n)
+res = int(r[::-1]) if n>=0 else -int(r[:0:-1])
+if res>(math.pow(2,31)-1) or res<-(math.pow(2,31)):
+    print(0)
+else:
+    print(res)
