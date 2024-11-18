@@ -1,0 +1,6 @@
+n=input()
+r=n[::-1]
+if n==r:
+    print("TRUE")
+else:
+    print("FALSE")
